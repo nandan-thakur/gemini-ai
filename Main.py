@@ -70,7 +70,7 @@ def load_modelvision() -> genai.GenerativeModel:
 
 #------------------------------------------------------------
 #CONFIGURATION
-genai.configure(api_key='AIzaSyBs-p7cxXO2dsAfxl6RsB9nsSryKdz5Qso')
+genai.configure(api_key='demo-key')
 
 model = load_model()
 
